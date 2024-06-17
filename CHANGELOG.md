@@ -1,3 +1,7 @@
+## [1.1.0] - 17/06/2024
+
+* Add functions isFirstCallSince() and isFirstRunSince() to check whether this is the first call/run since a particular version. 
+
 ## [1.0.0] - 03/11/2021
 
 * Null safety 🚀

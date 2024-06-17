@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:is_first_run/is_first_run.dart';
+import 'package:is_first_run_plus/is_first_run_plus.dart';
 
 void main() {
   runApp(MyApp());

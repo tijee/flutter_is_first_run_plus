@@ -1,5 +1,5 @@
-name: is_first_run_example
-description: Example app for the is_first_run package.
+name: is_first_run_plus_example
+description: Example app for the is_first_run_plus package.
 
 version: 1.0.0+1
 publish_to: none
@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.0
-  is_first_run:
+  is_first_run_plus:
     # When depending on this package from a real application you should use:
     #   flutter_background: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints

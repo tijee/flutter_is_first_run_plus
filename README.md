@@ -8,14 +8,14 @@ Internally it uses the [shared_preferences](https://pub.dev/packages/shared_pref
 
 ## Getting Started
 
-To use this plugin, add `is_first_run` as a [dependency in your `pubspec.yaml` file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
+To use this plugin, add `is_first_run_plus` as a [dependency in your `pubspec.yaml` file](https://flutter.dev/docs/development/packages-and-plugins/using-packages).
 
 ## Usage
 
-Import `is_first_run.dart`:
+import `is_first_run_plus.dart`:
 
 ```dart
-import 'package:is_first_run/is_first_run.dart';
+import 'package:is_first_run_plus/is_first_run_plus.dart';
 ```
 
 To check if this is the first time the app is run:
@@ -55,6 +55,7 @@ The example is a simple page showing you the result of the function `IsFirstRun.
 
 ## Maintainers
 
+* [Thomas Gallinari](https://github.com/tijee)
 * [Julian Aßmann](https://github.com/JulianAssmann)
 
 Pull requests are always very welcome.
