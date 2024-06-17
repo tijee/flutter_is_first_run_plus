@@ -4,7 +4,7 @@ This is a fork of Julian Aßmann's package https://github.com/JulianAssmann/flut
 
 A simple package to check if it is the first time the app runs.
 
-Internally it uses the [shared_preferences](https://pub.dev/packages/shared_preferences) plugin.
+Internally it uses the [shared_preferences](https://pub.dev/packages/shared_preferences) and [package_info_plus](https://pub.dev/packages/package_info_plus) plugins.
 
 ## Getting Started
 
@@ -33,6 +33,13 @@ bool firstCall = await IsFirstRun.isFirstCall();
 ```
 
 Calling this function for the first time after installing the app returns `true`, after that every function call returns `false`.
+
+You can do the same calls with a build number parameter if you are interested in whether this is the first time using the app since a particular version:
+
+```dart
+bool firstCallSinceBuild66 = await IsFirstRun.isFirstCallSince(build: 66);
+bool firstRunSinceBuild66 = await IsFirstRun.isFirstRunSince(build: 66);
+```
 
 You can reset the plugin by calling
 
