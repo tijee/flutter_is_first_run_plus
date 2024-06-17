@@ -1,4 +1,6 @@
-# is_first_run
+# is_first_run_plus
+
+This is a fork of Julian Aßmann's package https://github.com/JulianAssmann/flutter_is_first_run.
 
 A simple package to check if it is the first time the app runs.
 
