@@ -1,3 +1,7 @@
+## [1.2.1] - 06/12/2024
+
+* Allow more versions of package_info_plus.
+
 ## [1.2.0] - 06/12/2024
 
 * Replace SharedPreferences with HiveDB because of the volatility of local storage on the web. SharedPreferences will still be used as fallback for compatibility.
