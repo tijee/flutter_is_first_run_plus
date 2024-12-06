@@ -4,7 +4,7 @@ This is a fork of Julian Aßmann's package https://github.com/JulianAssmann/flut
 
 A simple package to check if it is the first time the app runs.
 
-Internally it uses the [shared_preferences](https://pub.dev/packages/shared_preferences) and [package_info_plus](https://pub.dev/packages/package_info_plus) plugins.
+Internally it uses ~~[shared_preferences](https://pub.dev/packages/shared_preferences)~~ [hive_flutter](https://pub.dev/packages/hive_flutter/versions) and [package_info_plus](https://pub.dev/packages/package_info_plus) plugins.
 
 ## Getting Started
 
