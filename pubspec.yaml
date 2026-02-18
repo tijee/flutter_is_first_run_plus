@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   hive_flutter: ^1.1.0
-  package_info_plus: '>=4.2.0 <8.1.1'
+  package_info_plus: '>=4.2.0 <10.0.0'
   shared_preferences: ^2.2.3
 
 dev_dependencies:
