@@ -1,3 +1,7 @@
+## [1.3.0] - 18/02/2026
+
+* Upgrade package_info_plus.
+
 ## [1.2.1] - 06/12/2024
 
 * Allow more versions of package_info_plus.
