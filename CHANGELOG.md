@@ -1,3 +1,7 @@
+## [1.4.0] - 18/08/2026
+
+* Widen `package_info_plus` constraint to `<12.0.0`.
+
 ## [1.3.0] - 18/02/2026
 
 * Upgrade package_info_plus.
