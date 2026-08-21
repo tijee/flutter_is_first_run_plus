@@ -1,3 +1,7 @@
+## [1.5.0] - 21/08/2026
+
+* Migrate from `hive_flutter` to `hive_ce_flutter` for Flutter web WASM support.
+
 ## [1.4.0] - 18/08/2026
 
 * Widen `package_info_plus` constraint to `<12.0.0`.
